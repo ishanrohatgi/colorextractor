@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'colorextraxtor';
+  title = 'Color Extractinator';
+  colorArray:any;
+  setColorArray(event:Event){
+     this.colorArray= event;
+  }
 }

@@ -1,0 +1,17 @@
+:host{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 30;
+    gap: 10px;
+}
+.color-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 130px;
+}

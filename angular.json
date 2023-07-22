@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "colorextraxtor": {
+    "colorextractor": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/colorextraxtor",
+            "outputPath": "dist/colorextractor",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "colorextraxtor:build:production"
+              "browserTarget": "colorextractor:build:production"
             },
             "development": {
-              "browserTarget": "colorextraxtor:build:development"
+              "browserTarget": "colorextractor:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "colorextraxtor:build"
+            "browserTarget": "colorextractor:build"
           }
         },
         "test": {
@@ -100,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d6469f85-92e1-4ca8-a68b-337e3efc22fa"
   }
 }

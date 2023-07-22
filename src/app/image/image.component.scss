@@ -1,0 +1,29 @@
+:host{
+    height: 65%;
+    padding: 20px;
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#file{
+    visibility: hidden;
+}
+img{
+    max-height: 80%;
+    max-width: 80%;
+
+}
+.btn{
+    background-color: rgb(27, 177, 27);
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.btn:hover{
+    background-color: red;
+}

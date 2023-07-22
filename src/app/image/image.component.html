@@ -1,0 +1,3 @@
+<img [src]="imageSrc" alt="" srcset="" *ngIf="imageSrc" #imageElement (load)="onImgLoad()">
+<label for="file" class="btn">Select Image</label>
+<input id="file" class="file-button" type="file" (change)="handleImageChange($event)" accept="image/png,image/jpeg">
